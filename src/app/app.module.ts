@@ -18,6 +18,8 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { AddCryptoDialogComponent } from './add-crypto-dialog/add-crypto-dialog.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { LineChartComponent } from './line-chart/line-chart.component';
+import { LineChartModule } from './line-chart/line-chart.module';
+
 
 
 
@@ -31,7 +33,7 @@ import { LineChartComponent } from './line-chart/line-chart.component';
     PagenotfoundComponent,
     AddCryptoDialogComponent,
     RegistrationComponent,
-    LineChartComponent,
+    
 
   ],
   imports: [
@@ -46,6 +48,8 @@ import { LineChartComponent } from './line-chart/line-chart.component';
     MatTabsModule,
     MatDialogModule,
     MatSelectModule,
+    LineChartModule,
+
 
 
 

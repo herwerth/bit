@@ -1,25 +1,13 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { LineChartModule } from './line-chart.module';
-import { BrowserModule } from '@angular/platform-browser';
-import { AppComponent } from '../app.component';
+
+import { ChartsModule } from 'ng2-charts';
 
 
-
+import { LineChartComponent } from './line-chart.component';
 
 @NgModule({
-  declarations: [
-
-    AppComponent
-  ],
-  imports: [
-    CommonModule,
-    BrowserModule,
-    LineChartModule
-  ]
+  declarations: [LineChartComponent],
+  imports: [ChartsModule],
+  exports: [LineChartComponent],
 })
-export class AppModule { }
-
-
-export { LineChartModule };
-
+export class LineChartModule {}

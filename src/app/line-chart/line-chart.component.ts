@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
 import { ChartDataSets, ChartOptions } from 'chart.js';
 import { Color, Label } from 'ng2-charts';
-import { ChartsModule } from 'ng2-charts';
-
 
 @Component({
   selector: 'app-line-chart',
@@ -16,7 +14,7 @@ export class LineChartComponent {
 
   public lineChartLabels: Label[] = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
 
-  public lineChartOptions: ChartOptions = {
+  public lineChartOptions: ChartOptions = {  
     responsive: true,
     legend: {
       display: true,
