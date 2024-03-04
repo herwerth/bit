@@ -1,0 +1,31 @@
+.tab-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Középre igazítás */
+}
+
+.custom-tab-group {
+  max-width: 600px; /* Maximális szélesség beállítása */
+  width: 100%; /* Teljes szélesség elfoglalása */
+}
+
+.add-tab-button {
+  background-color: #007bff; /* Kék háttérszín */
+  color: white; /* Fehér szövegszín */
+  border: none;
+  border-radius: 50%; /* Kerekített szélek */
+  width: 60px; /* Nagyobb méret beállítása */
+  height: 60px; /* Nagyobb méret beállítása */
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Árnyékolás */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; /* Mutató mutatása a gomb felett */
+  transition: background-color 0.3s ease;
+}
+
+.add-tab-button:hover {
+  background-color: #0056b3; /* Sötétebb kék háttérszín a hover hatásra */
+}

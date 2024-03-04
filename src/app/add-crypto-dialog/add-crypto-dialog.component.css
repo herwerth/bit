@@ -1,0 +1,20 @@
+/* Szépített legördülő lista stílusai */
+.mat-select {
+  width: 200px; /* Állítsd be a kívánt szélességet */
+  border-radius: 5px; /* Kerekített sarkok */
+  border: 1px solid #ccc; /* Keret */
+  padding: 8px; /* Belső tér */
+}
+
+.mat-select-arrow {
+  color: #555; /* Szín a legördülő ikon számára */
+}
+
+.mat-option {
+  padding: 8px; /* Belső tér */
+  transition: background-color 0.3s; /* Áttűnés a hover eseményre */
+}
+
+.mat-option:hover {
+  background-color: #f0f0f0; /* Háttérszín a hover eseményre */
+}

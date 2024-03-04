@@ -1,0 +1,33 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Az ablak teljes magasságának elfoglalása */
+}
+
+.login-form {
+  width: 300px; /* A form szélessége */
+}
+
+/* Stílus a router linkhez */
+a.router-link {
+  color: #007bff;
+  text-decoration: none;
+  padding: 10px 12px;
+  border: 1px solid #007bff;
+  margin: 5px;
+  border-radius: 5px; /* Keret lekerekítése */
+  transition: background-color 0.3s, color 0.3s;
+}
+a.router-link:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+
+
+
